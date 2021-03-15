@@ -1,4 +1,4 @@
-# KoreanLady Discord Bot
+# SaTzu Discord Bot
 
 KoreanLady is a simple Discord bot with a few fun commands.
 
@@ -12,31 +12,31 @@ Some commands require an argument (shown surrounded by chevrons `<` & `>`), like
 
 Please check the examples provided to see what each command can do!
 
-### `k!8ball`
+### `!!8ball`
 
 Uses an 8 ball to answer a question.
 
-Usage: `k!8ball <question>`
+Usage: `!!8ball <question>`
 
-Examples: `k!8ball Will I pass my exam?`
+Examples: `!!8ball Will I pass my exam?`
 
-### `k!anime`
+### `!!anime`
 
 Returns info about an anime. The command will always try to find the best match, but providing a full title is still recommended for best results. Filtering by year is not supported.
 
-Usage: `k!anime <anime title>`
+Usage: `!!anime <anime title>`
 
-Examples: `k!anime Hinamatsuri`
+Examples: `!!anime Hinamatsuri`
 
-### `k!ban`
+### `!!ban`
 
 Bans a user or object for a random amount of time, from a few seconds to several years. If the ban is longer than a year the expiry date will also be shown.
 
-Usage: `k!ban [subject]`
+Usage: `!!ban [subject]`
 
-Examples: `k!ban` `k!ban Mosquitoes` `k!ban @Batman`
+Examples: `!!ban` `!!ban Mosquitoes` `!!ban @Batman`
 
-### `k!birthday`
+### `!!birthday`
 
 Allows a user to set or unset their birthday date, or see a list of upcoming birthdays. if no argument is provided, the bot will show the user's current birthday date, if it is present in the database.
 
@@ -44,151 +44,151 @@ The bot will send a notification on chat at 8 AM CET whenever it's someone's bir
 
 When adding your birthday date, please use the format DD/MM.
 
-Usage: `k!birthday [set DD/MM|unset|upcoming]`
+Usage: `!!birthday [set DD/MM|unset|upcoming]`
 
-Examples: `k!birthday` `k!birthday set 31/12` `k!birthday unset` `k!birthday upcoming`
+Examples: `!!birthday` `!!birthday set 31/12` `k!birthday unset` `k!birthday upcoming`
 
-Aliases: `k!bday` `k!bd`
+Aliases: `!!bday` `k!bd`
 
-### `k!coin`
+### `!!!oin`
 
 Throws a coin and shows the result (heads or tails).
 
-Usage: `k!coin`
+Usage: `!!!oin`
 
-Aliases: `k!headsortails`
+Aliases: `!!!eadsortails`
 
-### `k!dice`
+### `!!!ice`
 
 Throws a dice. By default it will be a 6 sided dice, but a different number can be added after the command.
 
-Usage: `k!dice [sides]`
+Usage: `!!dice [sides]`
 
-Examples: `k!dice` `k!dice 12`
+Examples: `!!dice` `!!dice 12`
 
-### `k!fight`
+### `!!fight`
 
 Start a fight with someone.
 
 Characters start with 150HP and take turns to attack. Attacks are selected randomly, and their damage multiplier is also rolled randomly each turn. Each attack has a different accuracy and critical hit chance. The first fighter that runs out of HP loses.
 
-Usage: `k!fight [subject]`
+Usage: `!!fight [subject]`
 
-Examples: `k!fight` `k!fight Loch Ness Monster` `k!fight @Batman`
+Examples: `!!fight` `!!fight Loch Ness Monster` `!!fight @Batman`
 
-Aliases: `k!battle`
+Aliases: `!!battle`
 
-Notice: This command is considered spam and can only be used in the spam channel.
+Notice: This command is!!onsidered spam and can only be used in the spam channel.
 
-### `k!fine`
+### `!!fine`
 
 Fines someone with a random amount of money, in a random currency.
 
-Usage: `k!fine [subject]`
+Usage: `!!fine [subject]`
 
-Examples: `k!fine` `k!fine @Superman` `k!fine The whole planet`
+Examples: `!!fine` `!!fine @Superman` `!!fine The whole planet`
 
-### `k!fortune`
+### `!!fortune`
 
 Get a fortune! For best results, get a snack first, break it in half, then use this command.
 
-Usage: `k!fortune`
+Usage: `!!fortune`
 
-Examples: `k!fortune`
+Examples: `!!fortune`
 
-Aliases: `k!fortunecookie`
+Aliases: `!!fortunecookie`
 
-### `k!help`
+### `!!help`
 
 Shows a link to command list in documentation. If a command is added as an argument, it will show help specific to that command.
 
-Usage: `k!help [command]`
+Usage: `!!help [command]`
 
-Examples: `k!help` `k!help ban`
+Examples: `!!help` `!!help ban`
 
-Aliases: `k!h` `k!?` `k!info`
+Aliases: `!!h` `!!?` `!!info`
 
-### `k!hug`
+### `!!hug`
 
 Hugs someone/something for a random amount of mississippis.
 
-Usage: `k!hug [subject]`
+Usage: `!!hug [subject]`
 
-Examples: `k!hug` `k!hug chat`
+Examples: `!!hug` `!!hug chat`
 
-### `k!list`
+### `!!list`
 
 Lists all available commands.
+!
+Usage: `!!list`
 
-Usage: `k!list`
+Aliases: `!!commands` `!!commandlist`
 
-Aliases: `k!commands` `k!commandlist`
-
-### `k!love`
+### `!!love`
 
 Shows how much you love someone or something, with a random percentage.
 
-Usage: `k!love [subject]`
+Usage: `!!love [subject]`
 
-Examples: `k!love` `k!love @Wumpus` `k!love everyone in chat`
+Examples: `!!love` `!!love @Wumpus` `!!love everyone in chat`
 
-### `k!movie`
+### `!!movie`
 
 Returns info about a movie. The command will always try to find the best match, but providing a full title is still recommended for best results. You can refine your search by typing the year between parethesis.
 
-Usage: `k!movie <movie title>`
+Usage: `!!movie <movie title>`
 
-Examples: `k!movie Alien` `k!movie Total Recall (1990)`
+Examples: `!!movie Alien` `k!movie Total Recall (1990)`
 
-### `k!movienight`
+### `!!movienight`
 
 Shows a link with information, tips & troubleshooting regarding movie night.
 
-Usage: `k!movienight`
+Usage: `!!movienight`
 
-Aliases: `k!movies` `k!mn`
+Aliases: `!!movies` `!!mn`
 
-### `k!owo`
+### `!!owo`
 
 Twanswates y-youw text t-to OwO speak! Pwease use wesponsibwy, hehe.
 
-Usage: `k!owo <text>`
+Usage: `!!owo <text>`
 
-Examples: `k!owo A loyal warrior will rarely worry why we rule.`
+Examples: `!!owo A loyal warrior will rarely worry why we rule.`
 
-Aliases: `k!owoify` `k!owify`
+Aliases: `!!owoify` `!!owify`
 
-### `k!ping`
+### `!!ping`
 
 Simple ping command to test bot is online.
 
-Usage: `k!ping`
+Usage: `!!ping`
 
-### `k!show`
+### `!!show`
 
 Returns info about a TV show. The command will always try to find the best match, but providing a full title is still recommended for best results. You can refine your search by typing the year between parethesis.
 
-Usage: `k!show <show title>`
+Usage: `!!show <show title>`
 
-Examples: `k!show The Witcher` `k!show Doctor Who (1963)`
+Examples: `!!show The Witcher` `!!show Doctor Who (1963)`
 
-### `k!slap`
+### `!!slap`
 
 Lets you slap your nemeses, and shows how much damage you've inflicted.
 
-Usage: `k!slap [subject]`
+Usage: `!!slap [subject]`
 
-Examples: `k!slap` `k!slap @Cthulhu` `k!slap everyone in chat`
+Examples: `!!slap` `!!slap @Cthulhu` `!!slap everyone in chat`
 
-### `k!timezones`
+### `!!timezones`
 
 Show the current time in several cities of different timezones.
 
-Usage: `k!timezones`
+Usage: `!!timezones`
 
-Aliases: `k!timezone` `k!tz`
+Aliases: `!!timezone` `!!tz`
 
-### `k!track`
+### `!!track`
 
 Keeps track of how many episodes have been watched for a show. You can check usage and examples below for how to add new tracked shows, rename, change, check the amount of episodes watched, or delete them from the database.
 
@@ -198,20 +198,20 @@ To see a list of shows currently tracked type the command without any arguments.
 
 Shows can also be marked as complete, which makes them appear in a separate list.
 
-Usage: `k!track [(show)|add (show)|rename (show) (newShowName)|set (show) (eps)|del (show)|complete (show)]`
+Usage: `!!track [(show)|add (show)|rename (show) (newShowName)|set (show) (eps)|del (show)|complete (show)]`
 
-Examples: `k!track` `k!track HxH` `k!track add HxH` `k!track rename Hunter HxH` `k!track set HxH 120` `k!track del HxH` `k!track complete HxH`
+Examples: `!!track` `!!track HxH` `!!track add HxH` `!!track rename Hunter HxH` `!!track set HxH 120` `!!track del HxH` `!!track complete HxH`
 
-Aliases: `k!trackshow` `k!ts`
+Aliases: `!!trackshow` `!!ts`
 
-### `k!treat`
+### `!!treat`
 
 Give someone a treat. If no subject is provided, the treat will be for everyone!
 
 Treats are randomly generated by a super secret special algorithm, only with the highest quality ingredients. By being gifted a treat you enter a non-negotiable contract and are legally obligated to stop what you are doing and eat. Treats may contain traces of pineapple.
 
-Usage: `k!treat [subject]`
+Usage: `!!treat [subject]`
 
-Examples: `k!treat` `k!treat @KoreanLady` `k!treat the queen of England`
+Examples: `!!treat` `!!treat @KoreanLady` `!!treat the queen of England`
 
-Aliases: `k!dessert`
+Aliases: `!!dessert`
